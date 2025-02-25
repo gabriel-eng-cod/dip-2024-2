@@ -13,7 +13,6 @@ def get_image_info(image):
     """
     
     ### START CODE HERE ###
-
     height, width = image.shape[:2]
     dtype = image.dtype
     depth = image.itemsize * 8
